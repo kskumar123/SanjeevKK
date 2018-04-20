@@ -35,10 +35,10 @@ public class connect {
 			// get the property value and print it out
 			
 */			
-			url="jdbc:h2:~/niitdb";  //  prop.getProperty("url");
+			url="jdbc:h2:~/test";  //  prop.getProperty("url");
 			//database="niitdb"; //prop.getProperty("database");
 			dbuser="sa"; //prop.getProperty("dbuser");
-			dbpassword="password";//prop.getProperty("dbpassword");
+			dbpassword="pass@123";//prop.getProperty("dbpassword");
 			driver="org.h2.Driver"; //prop.getProperty("driver");
 		
 			System.out.println(url);
